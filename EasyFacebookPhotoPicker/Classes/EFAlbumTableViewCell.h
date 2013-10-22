@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EasyFacebookAlbumTableViewCell : UITableViewCell
+@interface EFAlbumTableViewCell : UITableViewCell
 
 @end

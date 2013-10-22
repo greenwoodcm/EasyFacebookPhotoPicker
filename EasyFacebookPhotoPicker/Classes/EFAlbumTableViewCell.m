@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Chris Greenwood. All rights reserved.
 //
 
-#import "EasyFacebookAlbumTableViewCell.h"
+#import "EFAlbumTableViewCell.h"
 
-@implementation EasyFacebookAlbumTableViewCell
+@implementation EFAlbumTableViewCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

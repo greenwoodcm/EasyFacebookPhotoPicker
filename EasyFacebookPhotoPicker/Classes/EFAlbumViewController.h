@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <FacebookSDK/FacebookSDK.h>
 
-@interface EasyFacebookAlbumViewController : UICollectionViewController
+@interface EFAlbumViewController : UICollectionViewController
 
 @property (strong, nonatomic) FBGraphObject *album;
 

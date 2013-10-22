@@ -6,15 +6,15 @@
 //  Copyright (c) 2013 Chris Greenwood. All rights reserved.
 //
 
-#import "EasyFacebookAlbumTableViewController.h"
-#import "EasyFacebookAlbumTableViewCell.h"
-#import "EasyFacebookAlbumViewController.h"
+#import "EFAlbumTableViewController.h"
+#import "EFAlbumTableViewCell.h"
+#import "EFAlbumViewController.h"
 
-@interface EasyFacebookAlbumTableViewController ()
+@interface EFAlbumTableViewController ()
 
 @end
 
-@implementation EasyFacebookAlbumTableViewController
+@implementation EFAlbumTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -63,7 +63,7 @@
     if(!cell)
     {
         NSArray *tlobjs = [[NSBundle mainBundle] loadNibNamed:@"EasyFacebookAlbumTableViewCell" owner:nil options:nil];
-        cell = (EasyFacebookAlbumTableViewCell*)[tlobjs objectAtIndex:0];
+        cell = (EFAlbumTableViewCell*)[tlobjs objectAtIndex:0];
     }
     
     FBGraphObject *album = [[self albumData] objectAtIndex:indexPath.row];
@@ -82,7 +82,7 @@
 {
     FBGraphObject *album = [[self albumData] objectAtIndex:indexPath.row];
     
-    EasyFacebookAlbumViewController *avc = [[EasyFacebookAlbumViewController alloc] init];
+    EFAlbumViewController *avc = [[EFAlbumViewController alloc] init];
     avc.album = album;
     
     [self.navigationController pushViewController:avc animated:YES];

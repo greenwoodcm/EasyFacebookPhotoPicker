@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Chris Greenwood. All rights reserved.
 //
 
-#import "EasyFacebookAlbumViewController.h"
+#import "EFAlbumViewController.h"
 
-@interface EasyFacebookAlbumViewController ()
+@interface EFAlbumViewController ()
 
 @end
 
-@implementation EasyFacebookAlbumViewController
+@implementation EFAlbumViewController
 
 -(id)init
 {

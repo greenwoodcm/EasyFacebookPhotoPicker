@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "EasyFacebookPhotoPicker.h"
 
-@interface EasyFacebookAlbumTableViewController : UITableViewController <EasyFacebookPhotoPickerAlbumsDelegate>
+@interface EFAlbumTableViewController : UITableViewController <EasyFacebookPhotoPickerAlbumsDelegate>
 
 @end

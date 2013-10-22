@@ -7,7 +7,7 @@
 //
 
 #import "EasyFacebookPhotoPicker.h"
-#import "EasyFacebookAlbumTableViewController.h"
+#import "EFAlbumTableViewController.h"
 
 @interface EasyFacebookPhotoPicker ()
 
@@ -17,7 +17,7 @@
 
 -(id)init
 {
-    EasyFacebookAlbumTableViewController *tvc = [[EasyFacebookAlbumTableViewController alloc] init];
+    EFAlbumTableViewController *tvc = [[EFAlbumTableViewController alloc] init];
     self.albumDelegate = tvc;
     
     self = [super initWithRootViewController:tvc];
