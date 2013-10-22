@@ -21,6 +21,12 @@
 		4A00A6841815697C00A8C562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A00A6661815697C00A8C562 /* UIKit.framework */; };
 		4A00A68C1815697C00A8C562 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A00A68A1815697C00A8C562 /* InfoPlist.strings */; };
 		4A00A68E1815697C00A8C562 /* EasyFacebookPhotoPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A00A68D1815697C00A8C562 /* EasyFacebookPhotoPickerTests.m */; };
+		4AFF5D4518156BCA00A50EFF /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFF5D4418156BCA00A50EFF /* FacebookSDK.framework */; };
+		4AFF5D4918156F0D00A50EFF /* EasyFacebookPhotoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFF5D4718156F0D00A50EFF /* EasyFacebookPhotoPicker.m */; };
+		4AFF5D4D1816B78400A50EFF /* EasyFacebookAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFF5D4C1816B78400A50EFF /* EasyFacebookAlbumTableViewController.m */; };
+		4AFF5D501816B85E00A50EFF /* EasyFacebookAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFF5D4F1816B85E00A50EFF /* EasyFacebookAlbumTableViewCell.m */; };
+		4AFF5D521816B88600A50EFF /* EasyFacebookAlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AFF5D511816B88600A50EFF /* EasyFacebookAlbumTableViewCell.xib */; };
+		4AFF5D551816C45300A50EFF /* EasyFacebookAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFF5D541816C45300A50EFF /* EasyFacebookAlbumViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,16 @@
 		4A00A6891815697C00A8C562 /* EasyFacebookPhotoPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyFacebookPhotoPickerTests-Info.plist"; sourceTree = "<group>"; };
 		4A00A68B1815697C00A8C562 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A00A68D1815697C00A8C562 /* EasyFacebookPhotoPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyFacebookPhotoPickerTests.m; sourceTree = "<group>"; };
+		4AFF5D4418156BCA00A50EFF /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../../../../git/facebook-ios-sdk/build/FacebookSDK.framework"; sourceTree = "<group>"; };
+		4AFF5D4618156F0D00A50EFF /* EasyFacebookPhotoPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyFacebookPhotoPicker.h; sourceTree = "<group>"; };
+		4AFF5D4718156F0D00A50EFF /* EasyFacebookPhotoPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyFacebookPhotoPicker.m; sourceTree = "<group>"; };
+		4AFF5D4B1816B78400A50EFF /* EasyFacebookAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyFacebookAlbumTableViewController.h; sourceTree = "<group>"; };
+		4AFF5D4C1816B78400A50EFF /* EasyFacebookAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyFacebookAlbumTableViewController.m; sourceTree = "<group>"; };
+		4AFF5D4E1816B85E00A50EFF /* EasyFacebookAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyFacebookAlbumTableViewCell.h; sourceTree = "<group>"; };
+		4AFF5D4F1816B85E00A50EFF /* EasyFacebookAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyFacebookAlbumTableViewCell.m; sourceTree = "<group>"; };
+		4AFF5D511816B88600A50EFF /* EasyFacebookAlbumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EasyFacebookAlbumTableViewCell.xib; sourceTree = "<group>"; };
+		4AFF5D531816C45300A50EFF /* EasyFacebookAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyFacebookAlbumViewController.h; sourceTree = "<group>"; };
+		4AFF5D541816C45300A50EFF /* EasyFacebookAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyFacebookAlbumViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A00A6651815697C00A8C562 /* CoreGraphics.framework in Frameworks */,
+				4AFF5D4518156BCA00A50EFF /* FacebookSDK.framework in Frameworks */,
 				4A00A6671815697C00A8C562 /* UIKit.framework in Frameworks */,
 				4A00A6631815697C00A8C562 /* Foundation.framework in Frameworks */,
 			);
@@ -82,6 +99,7 @@
 		4A00A6561815697C00A8C562 = {
 			isa = PBXGroup;
 			children = (
+				4A00A697181569A200A8C562 /* Vendor */,
 				4A00A6681815697C00A8C562 /* EasyFacebookPhotoPicker */,
 				4A00A6871815697C00A8C562 /* EasyFacebookPhotoPickerTests */,
 				4A00A6611815697C00A8C562 /* Frameworks */,
@@ -114,6 +132,15 @@
 			children = (
 				4A00A6711815697C00A8C562 /* AppDelegate.h */,
 				4A00A6721815697C00A8C562 /* AppDelegate.m */,
+				4AFF5D4618156F0D00A50EFF /* EasyFacebookPhotoPicker.h */,
+				4AFF5D4718156F0D00A50EFF /* EasyFacebookPhotoPicker.m */,
+				4AFF5D4B1816B78400A50EFF /* EasyFacebookAlbumTableViewController.h */,
+				4AFF5D4C1816B78400A50EFF /* EasyFacebookAlbumTableViewController.m */,
+				4AFF5D4E1816B85E00A50EFF /* EasyFacebookAlbumTableViewCell.h */,
+				4AFF5D4F1816B85E00A50EFF /* EasyFacebookAlbumTableViewCell.m */,
+				4AFF5D511816B88600A50EFF /* EasyFacebookAlbumTableViewCell.xib */,
+				4AFF5D531816C45300A50EFF /* EasyFacebookAlbumViewController.h */,
+				4AFF5D541816C45300A50EFF /* EasyFacebookAlbumViewController.m */,
 				4A00A6741815697C00A8C562 /* Main.storyboard */,
 				4A00A6771815697C00A8C562 /* ViewController.h */,
 				4A00A6781815697C00A8C562 /* ViewController.m */,
@@ -150,6 +177,14 @@
 				4A00A68A1815697C00A8C562 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A00A697181569A200A8C562 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				4AFF5D4418156BCA00A50EFF /* FacebookSDK.framework */,
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +266,7 @@
 				4A00A67B1815697C00A8C562 /* Images.xcassets in Resources */,
 				4A00A66D1815697C00A8C562 /* InfoPlist.strings in Resources */,
 				4A00A6761815697C00A8C562 /* Main.storyboard in Resources */,
+				4AFF5D521816B88600A50EFF /* EasyFacebookAlbumTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFF5D551816C45300A50EFF /* EasyFacebookAlbumViewController.m in Sources */,
+				4AFF5D501816B85E00A50EFF /* EasyFacebookAlbumTableViewCell.m in Sources */,
+				4AFF5D4D1816B78400A50EFF /* EasyFacebookAlbumTableViewController.m in Sources */,
+				4AFF5D4918156F0D00A50EFF /* EasyFacebookPhotoPicker.m in Sources */,
 				4A00A6791815697C00A8C562 /* ViewController.m in Sources */,
 				4A00A6731815697C00A8C562 /* AppDelegate.m in Sources */,
 				4A00A66F1815697C00A8C562 /* main.m in Sources */,
@@ -378,6 +418,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/greenwoodcm/Documents/XCode\\ Projects/EasyFacebookPhotoPicker/Vendor",
+					"/Users/greenwoodcm/git/facebook-ios-sdk/build",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyFacebookPhotoPicker/EasyFacebookPhotoPicker-Prefix.pch";
 				INFOPLIST_FILE = "EasyFacebookPhotoPicker/EasyFacebookPhotoPicker-Info.plist";
@@ -391,6 +436,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/greenwoodcm/Documents/XCode\\ Projects/EasyFacebookPhotoPicker/Vendor",
+					"/Users/greenwoodcm/git/facebook-ios-sdk/build",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyFacebookPhotoPicker/EasyFacebookPhotoPicker-Prefix.pch";
 				INFOPLIST_FILE = "EasyFacebookPhotoPicker/EasyFacebookPhotoPicker-Info.plist";
@@ -460,6 +510,7 @@
 				4A00A6931815697C00A8C562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A00A6941815697C00A8C562 /* Build configuration list for PBXNativeTarget "EasyFacebookPhotoPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +519,7 @@
 				4A00A6961815697C00A8C562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
