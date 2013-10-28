@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>03BB858C-59F6-45C5-9D33-4279AF8C6A1D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EasyFacebookPhotoPicker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>41053716-863B-4E51-89C4-CBEAF45AD58D</key>
+		<string>ssh://github.com/greenwoodcm/EasyFacebookPhotoPicker.git</string>
+		<key>51DA4789-7CD6-4A1E-A2FE-382831D94021</key>
+		<string>git://github.com/facebook/facebook-ios-sdk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EasyFacebookPhotoPicker.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>41053716-863B-4E51-89C4-CBEAF45AD58D</key>
+		<string>../..</string>
+		<key>51DA4789-7CD6-4A1E-A2FE-382831D94021</key>
+		<string>../../../../../git/facebook-ios-sdk</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/greenwoodcm/EasyFacebookPhotoPicker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>41053716-863B-4E51-89C4-CBEAF45AD58D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>41053716-863B-4E51-89C4-CBEAF45AD58D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EasyFacebookPhotoPicker</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>51DA4789-7CD6-4A1E-A2FE-382831D94021</string>
+			<key>IDESourceControlWCCName</key>
+			<string>facebook-ios-sdk</string>
+		</dict>
+	</array>
+</dict>
+</plist>
