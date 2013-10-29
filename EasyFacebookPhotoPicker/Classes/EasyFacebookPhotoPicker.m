@@ -22,7 +22,7 @@
     
     self = [super initWithRootViewController:tvc];
     if(self) {
-        
+        self.selectedPhotos = [[NSMutableSet alloc] init];
     }
     return self;
 }
@@ -49,6 +49,20 @@
             [self.albumDelegate albumDataUpdated];
         }
     }];
+}
+
+-(void)addSubmitButton:(UIViewController*)child
+{
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Done"
+                                                                    style:UIBarButtonItemStyleDone target:self action:@selector(submitButtonPressed)];
+    child.navigationItem.rightBarButtonItem = rightButton;
+}
+
+-(void)submitButtonPressed
+{
+    NSLog(@"Submit button pressed, selected : %@", self.selectedPhotos.description);
+    [self.delegate photoPicker:self finishedWithSelectedPhotos:self.selectedPhotos];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

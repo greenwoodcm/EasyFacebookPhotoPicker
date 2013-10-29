@@ -22,8 +22,10 @@
 		4A00A68C1815697C00A8C562 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A00A68A1815697C00A8C562 /* InfoPlist.strings */; };
 		4A00A68E1815697C00A8C562 /* EasyFacebookPhotoPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A00A68D1815697C00A8C562 /* EasyFacebookPhotoPickerTests.m */; };
 		4ACE290A181E9E8C008FC2F8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACE2909181E9E8C008FC2F8 /* FacebookSDK.framework */; };
-		4ACE290C181EA171008FC2F8 /* marlie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4ACE290B181EA171008FC2F8 /* marlie.jpeg */; };
 		4ACE2910181EA5F6008FC2F8 /* EFPhotoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACE290F181EA5F6008FC2F8 /* EFPhotoViewCell.xib */; };
+		4ACE2991181FF205008FC2F8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACE2990181FF205008FC2F8 /* ImageIO.framework */; };
+		4ACE2992181FF20D008FC2F8 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACE2988181FF1B9008FC2F8 /* libSDWebImage.a */; };
+		4ACE2996181FF61F008FC2F8 /* photo-selected-filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ACE2995181FF61F008FC2F8 /* photo-selected-filter.png */; };
 		4AFF5D621816C86A00A50EFF /* EasyFacebookPhotoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFF5D581816C86A00A50EFF /* EasyFacebookPhotoPicker.m */; };
 		4AFF5D631816C86A00A50EFF /* EFAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFF5D5A1816C86A00A50EFF /* EFAlbumTableViewCell.m */; };
 		4AFF5D641816C86A00A50EFF /* EFAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFF5D5C1816C86A00A50EFF /* EFAlbumTableViewController.m */; };
@@ -39,6 +41,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4A00A65E1815697C00A8C562;
 			remoteInfo = EasyFacebookPhotoPicker;
+		};
+		4ACE2987181FF1B9008FC2F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACE2980181FF1B9008FC2F8 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = SDWebImage;
+		};
+		4ACE2989181FF1B9008FC2F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACE2980181FF1B9008FC2F8 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 537D95C117ECC1FE0097C263;
+			remoteInfo = "SDWebImage+WebP";
+		};
+		4ACE298B181FF1B9008FC2F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACE2980181FF1B9008FC2F8 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
+			remoteInfo = "SDWebImage+MKAnnotation";
+		};
+		4ACE298D181FF1C7008FC2F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACE2980181FF1B9008FC2F8 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 53761307155AD0D5005750A4;
+			remoteInfo = SDWebImage;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -63,8 +93,10 @@
 		4A00A68B1815697C00A8C562 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A00A68D1815697C00A8C562 /* EasyFacebookPhotoPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyFacebookPhotoPickerTests.m; sourceTree = "<group>"; };
 		4ACE2909181E9E8C008FC2F8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
-		4ACE290B181EA171008FC2F8 /* marlie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marlie.jpeg; path = ../../../../Dropbox/Photos/marlie.jpeg; sourceTree = "<group>"; };
 		4ACE290F181EA5F6008FC2F8 /* EFPhotoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EFPhotoViewCell.xib; sourceTree = "<group>"; };
+		4ACE2980181FF1B9008FC2F8 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		4ACE2990181FF205008FC2F8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4ACE2995181FF61F008FC2F8 /* photo-selected-filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-selected-filter.png"; sourceTree = "<group>"; };
 		4AFF5D571816C86A00A50EFF /* EasyFacebookPhotoPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyFacebookPhotoPicker.h; sourceTree = "<group>"; };
 		4AFF5D581816C86A00A50EFF /* EasyFacebookPhotoPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyFacebookPhotoPicker.m; sourceTree = "<group>"; };
 		4AFF5D591816C86A00A50EFF /* EFAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFAlbumTableViewCell.h; sourceTree = "<group>"; };
@@ -82,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ACE2992181FF20D008FC2F8 /* libSDWebImage.a in Frameworks */,
+				4ACE2991181FF205008FC2F8 /* ImageIO.framework in Frameworks */,
 				4A00A6651815697C00A8C562 /* CoreGraphics.framework in Frameworks */,
 				4ACE290A181E9E8C008FC2F8 /* FacebookSDK.framework in Frameworks */,
 				4A00A6671815697C00A8C562 /* UIKit.framework in Frameworks */,
@@ -125,6 +159,7 @@
 		4A00A6611815697C00A8C562 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4ACE2990181FF205008FC2F8 /* ImageIO.framework */,
 				4A00A6621815697C00A8C562 /* Foundation.framework */,
 				4A00A6641815697C00A8C562 /* CoreGraphics.framework */,
 				4A00A6661815697C00A8C562 /* UIKit.framework */,
@@ -152,6 +187,7 @@
 		4A00A6691815697C00A8C562 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4ACE2995181FF61F008FC2F8 /* photo-selected-filter.png */,
 				4A00A66A1815697C00A8C562 /* EasyFacebookPhotoPicker-Info.plist */,
 				4A00A66B1815697C00A8C562 /* InfoPlist.strings */,
 				4A00A66E1815697C00A8C562 /* main.m */,
@@ -181,10 +217,20 @@
 		4A00A697181569A200A8C562 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				4ACE290B181EA171008FC2F8 /* marlie.jpeg */,
+				4ACE2980181FF1B9008FC2F8 /* SDWebImage.xcodeproj */,
 				4ACE2909181E9E8C008FC2F8 /* FacebookSDK.framework */,
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		4ACE2981181FF1B9008FC2F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ACE2988181FF1B9008FC2F8 /* libSDWebImage.a */,
+				4ACE298A181FF1B9008FC2F8 /* libSDWebImage+WebP.a */,
+				4ACE298C181FF1B9008FC2F8 /* libSDWebImage+MKAnnotation.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4AFF5D561816C86A00A50EFF /* Classes */ = {
@@ -226,6 +272,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4ACE298E181FF1C7008FC2F8 /* PBXTargetDependency */,
 			);
 			name = EasyFacebookPhotoPicker;
 			productName = EasyFacebookPhotoPicker;
@@ -275,6 +322,12 @@
 			mainGroup = 4A00A6561815697C00A8C562;
 			productRefGroup = 4A00A6601815697C00A8C562 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4ACE2981181FF1B9008FC2F8 /* Products */;
+					ProjectRef = 4ACE2980181FF1B9008FC2F8 /* SDWebImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4A00A65E1815697C00A8C562 /* EasyFacebookPhotoPicker */,
@@ -283,6 +336,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		4ACE2988181FF1B9008FC2F8 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 4ACE2987181FF1B9008FC2F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4ACE298A181FF1B9008FC2F8 /* libSDWebImage+WebP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+WebP.a";
+			remoteRef = 4ACE2989181FF1B9008FC2F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4ACE298C181FF1B9008FC2F8 /* libSDWebImage+MKAnnotation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+MKAnnotation.a";
+			remoteRef = 4ACE298B181FF1B9008FC2F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		4A00A65D1815697C00A8C562 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -290,11 +367,11 @@
 			files = (
 				4ACE2910181EA5F6008FC2F8 /* EFPhotoViewCell.xib in Resources */,
 				4AFF5D661816C86A00A50EFF /* EasyFacebookPhotoPicker.xib in Resources */,
-				4ACE290C181EA171008FC2F8 /* marlie.jpeg in Resources */,
 				4A00A67B1815697C00A8C562 /* Images.xcassets in Resources */,
 				4A00A66D1815697C00A8C562 /* InfoPlist.strings in Resources */,
 				4A00A6761815697C00A8C562 /* Main.storyboard in Resources */,
 				4AFF5D671816C86A00A50EFF /* EFAlbumTableViewCell.xib in Resources */,
+				4ACE2996181FF61F008FC2F8 /* photo-selected-filter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +415,11 @@
 			isa = PBXTargetDependency;
 			target = 4A00A65E1815697C00A8C562 /* EasyFacebookPhotoPicker */;
 			targetProxy = 4A00A6851815697C00A8C562 /* PBXContainerItemProxy */;
+		};
+		4ACE298E181FF1C7008FC2F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			targetProxy = 4ACE298D181FF1C7008FC2F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -454,6 +536,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyFacebookPhotoPicker/EasyFacebookPhotoPicker-Prefix.pch";
 				INFOPLIST_FILE = "EasyFacebookPhotoPicker/EasyFacebookPhotoPicker-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -472,6 +555,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyFacebookPhotoPicker/EasyFacebookPhotoPicker-Prefix.pch";
 				INFOPLIST_FILE = "EasyFacebookPhotoPicker/EasyFacebookPhotoPicker-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

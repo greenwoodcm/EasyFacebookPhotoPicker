@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <FacebookSDK/FacebookSDK.h>
+#import "EasyFacebookPhotoPicker.h"
 
-@interface ViewController : UIViewController <FBLoginViewDelegate>
+@interface ViewController : UIViewController <FBLoginViewDelegate, EasyFacebookPhotoPickerDelegate>
+@property (weak, nonatomic) IBOutlet UITextView *selectedPhotosTextView;
 
 @end

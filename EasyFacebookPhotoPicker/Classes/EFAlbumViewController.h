@@ -13,5 +13,4 @@
 
 @property (strong, nonatomic) FBGraphObject *album;
 
-@property (nonatomic, strong) NSArray *dataArray;
 @end

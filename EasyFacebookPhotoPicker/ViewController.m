@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "EasyFacebookPhotoPicker.h"
 
 @interface ViewController ()
 
@@ -31,9 +30,16 @@
 
 -(void)showPhotoPicker {
     EasyFacebookPhotoPicker *picker = [[EasyFacebookPhotoPicker alloc] init];
+    picker.delegate = self;
+    
     [self presentViewController:picker animated:YES completion:^{
         
     }];
+}
+
+-(void)photoPicker:(EasyFacebookPhotoPicker *)picker finishedWithSelectedPhotos:(NSSet *)selected
+{
+    self.selectedPhotosTextView.text = [selected.allObjects componentsJoinedByString:@", "];
 }
 
 - (void)didReceiveMemoryWarning

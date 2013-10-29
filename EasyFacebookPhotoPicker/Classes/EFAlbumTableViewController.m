@@ -9,6 +9,7 @@
 #import "EFAlbumTableViewController.h"
 #import "EFAlbumTableViewCell.h"
 #import "EFAlbumViewController.h"
+#import "EasyFacebookPhotoPicker.h"
 
 @interface EFAlbumTableViewController ()
 
@@ -28,8 +29,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [(EasyFacebookPhotoPicker*)self.navigationController addSubmitButton:self];
     
     self.clearsSelectionOnViewWillAppear = YES;
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -90,7 +93,8 @@
 
 -(void)albumDataUpdated
 {
-    [self.tableView reloadData];
+    if(self.isViewLoaded)
+        [self.tableView reloadData];
 }
 
 @end
