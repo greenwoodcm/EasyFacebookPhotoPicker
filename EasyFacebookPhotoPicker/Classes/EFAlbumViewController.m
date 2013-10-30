@@ -96,9 +96,8 @@
     
     [imageView setImageWithURL:picUrl];
     
-    NSString *picId = [pic objectForKey:@"id"];
     UIImageView *overlay = (UIImageView*)[cell viewWithTag:200];
-    if([[self selectedPhotos] containsObject:picId])
+    if([[self selectedPhotos] containsObject:pic])
     {
         overlay.image = [UIImage imageNamed:@"photo-selected-filter.png"];
     }
@@ -113,12 +112,11 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     FBGraphObject *pic = [self.photoData objectAtIndex:indexPath.row];
-    NSString *picId = [pic objectForKey:@"id"];
     
-    if([[self selectedPhotos] containsObject:picId])
-        [[self selectedPhotos] removeObject:picId];
+    if([[self selectedPhotos] containsObject:pic])
+        [[self selectedPhotos] removeObject:pic];
     else
-        [[self selectedPhotos] addObject:picId];
+        [[self selectedPhotos] addObject:pic];
     
     [self.collectionView reloadData];
 }
