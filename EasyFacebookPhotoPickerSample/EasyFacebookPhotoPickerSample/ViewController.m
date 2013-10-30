@@ -31,6 +31,7 @@
 -(void)showPhotoPicker {
     EasyFacebookPhotoPicker *picker = [[EasyFacebookPhotoPicker alloc] init];
     picker.delegate = self;
+    picker.maxPicturesToSelect = 3;
     
     [self presentViewController:picker animated:YES completion:^{
         

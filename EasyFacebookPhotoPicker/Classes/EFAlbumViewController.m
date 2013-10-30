@@ -33,6 +33,11 @@
     return [(EasyFacebookPhotoPicker*)self.navigationController selectedPhotos];
 }
 
+-(NSInteger)maxToSelect
+{
+    return [(EasyFacebookPhotoPicker*)self.navigationController maxPicturesToSelect];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -116,7 +121,16 @@
     if([[self selectedPhotos] containsObject:pic])
         [[self selectedPhotos] removeObject:pic];
     else
+    {
+        // ignore this selection if the max number of pictures is already selected
+        if([self selectedPhotos].count >= [self maxToSelect])
+        {
+            NSLog(@"Maximum number of pictures is already selected");
+            return;
+        }
+        
         [[self selectedPhotos] addObject:pic];
+    }
     
     [self.collectionView reloadData];
 }

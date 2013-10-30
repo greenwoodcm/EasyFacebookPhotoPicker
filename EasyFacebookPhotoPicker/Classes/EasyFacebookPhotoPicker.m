@@ -23,6 +23,7 @@
     self = [super initWithRootViewController:tvc];
     if(self) {
         self.selectedPhotos = [[NSMutableSet alloc] init];
+        self.maxPicturesToSelect = INT_MAX;
     }
     return self;
 }

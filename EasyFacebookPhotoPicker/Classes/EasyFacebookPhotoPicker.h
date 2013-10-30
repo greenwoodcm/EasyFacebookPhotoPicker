@@ -35,6 +35,8 @@
 
 @property (strong, nonatomic) NSMutableSet *selectedPhotos;
 
+@property (nonatomic) NSInteger maxPicturesToSelect;
+
 -(void)addSubmitButton:(UIViewController*)child;
 
 @end
