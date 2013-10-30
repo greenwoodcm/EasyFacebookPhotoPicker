@@ -1,7 +1,7 @@
 EasyFacebookPhotoPicker
 =======================
 
-iOS modal view for selecting photos from a user's albums
+iOS modal view for selecting photos from a user's albums.  Allows the caller to specify a delegate as well as the maximum number of pictures the user can select.  The delegate receives a message containing the selected set of FBGraphObjects when the user has finished selecting their photos.
 
 Usage
 =====
@@ -9,6 +9,7 @@ Usage
     -(void)showPhotoPicker {
         EasyFacebookPhotoPicker *picker = [[EasyFacebookPhotoPicker alloc] init];
         picker.delegate = self;
+        picker.maxPicturesToSelect = 3;
         
         [self presentViewController:picker animated:YES completion:^{}];
     }
