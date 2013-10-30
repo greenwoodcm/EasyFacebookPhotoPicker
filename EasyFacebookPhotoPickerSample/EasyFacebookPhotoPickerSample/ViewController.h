@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EasyFacebookPhotoPicker/EasyFacebookPhotoPicker.h"
+#import "EasyFacebookPhotoPicker.h"
 
 @interface ViewController : UIViewController <FBLoginViewDelegate, EasyFacebookPhotoPickerDelegate>
 
