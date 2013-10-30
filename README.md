@@ -23,9 +23,11 @@ Installation
 ============
 
 1. Clone the repository and related dependencies
+
     git clone https://github.com/greenwoodcm/EasyFacebookPhotoPicker.git
     cd EasyFacebookPhotoPicker
     git submodule update --init
+
 2. Drag the `EasyFacebookPhotoPicker` directory into your project to import classes, XIBs, and image assets
 3. Install dependencies
     1. Drag the `Vendor/SDWebImage/SDWebImage.xcodeproj` project into your project
